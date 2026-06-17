@@ -1,7 +1,8 @@
 import './Item.css'
 
 function Item(){
-    return (<p className="nirma">Nikhil</p>);
+    const ItemName="Nikhil";
+    return (<p className="Nikhil">{ItemName}</p>);
 
 }
 export default Item;

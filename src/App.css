@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: #cfd3da;
+  height: 43.5rem;
 }
 
 .App-logo {
