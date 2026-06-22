@@ -1,0 +1,29 @@
+.product-date {
+  width: 90px;
+  height: 90px;
+
+  background-color: #2b2b3a;
+  color: white;
+
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid white;
+}
+
+.product-date__month {
+  font-size: 0.8rem;
+}
+
+.product-date__year {
+  font-size: 0.8rem;
+}
+
+.product-date__day {
+  font-size: 2rem;
+  font-weight: bold;
+}

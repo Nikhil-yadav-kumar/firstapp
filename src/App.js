@@ -29,11 +29,11 @@ function App() {
   return (
     <div>
     <ItemDate day={response[0].ItemDay}  month={response[0].ItemMonth} year={response[0].ItemYear}></ItemDate>
-    <Item ItemName={response[0].ItemName}></Item>
+    <Item ItemName={response[0].ItemName}> Kumar</Item>
 
     <ItemDate day={response[1].ItemDay}  month={response[1].ItemMonth} year={response[1].ItemYear}></ItemDate>
     <Item ItemName={response[1].ItemName}></Item>
-    
+
     <ItemDate day={response[2].ItemDay}  month={response[2].ItemMonth} year={response[2].ItemYear}></ItemDate>
     <Item ItemName={response[2].ItemName}></Item>
 
@@ -50,6 +50,8 @@ function App() {
     </div>
 
   );
+
+  
 }
 
 export default App;

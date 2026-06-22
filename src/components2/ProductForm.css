@@ -1,0 +1,61 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.new-product_title,
+.new-product_date {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-product_title label,
+.new-product_date label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.new-product_title input,
+.new-product_date input {
+  padding: 0.75rem;
+  font-size: 1rem;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #18dce0;
+  outline: none;
+}
+
+.new-product_title input:focus,
+.new-product_date input:focus {
+  box-shadow: 0 0 5px #333;
+}
+
+.new-product_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.new-product_button button {
+  padding: 0.75rem 1.5rem;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #2b2b3a;
+  color: white;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.new-product_button button:hover {
+  background-color: #111;
+  transform: translateY(-2px);
+}
